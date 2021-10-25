@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-[./screenshot/mobile-view.png]
+[Here is the mobile view screenshot](./screenshot/mobile-view.png)
 
 ### Links
 
