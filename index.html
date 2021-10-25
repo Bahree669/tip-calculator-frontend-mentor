@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="header-txt">spli<br>tter</h1>
+  </header>
+
+  
+  <section>
+    <div class="left-section">
+      <!-- form section -->
+      <form>
+        <div class="bill-input">
+          <label for="bill">Bill</label>
+
+          <div class="input-ic">
+            <img src="./images/icon-dollar.svg" alt="">
+            <input type="number" onfocus="this.value=''" id="bill" name="bill" min="1" max="999" required>
+          </div>
+        </div>
+
+        <div class="percentage">
+          <div>
+            <p class="percent">Select Tip %</p>
+          </div>
+
+          <div class="radio-container">
+
+              <input type="radio" id="five-percent" name="bill-prcntg" value="5">
+              <label for="five-percent">5%</label>
+
+              <input type="radio" id="ten-percent" name="bill-prcntg" value="10">
+              <label for="ten-percent">10%</label>
+   
+              <input type="radio" id="fftn-percent" name="bill-prcntg" value="15">
+              <label for="fftn-percent">15%</label>
+  
+              <input type="radio" id="twenfiv-percent" name="bill-prcntg" value="25">
+              <label for="twenfiv-percent">25%</label>
+   
+              <input type="radio" id="fivety-percent" name="bill-prcntg" value="50">
+              <label for="fivety-percent">50%</label>
+
+              <!-- the custom button -->
+            <div>
+              <input placeholder="Custom" type="number" id="custom" name="bill" min="1" max="100" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="ppl-number">
+          <label for="ppl">Number of People</label>
+          <div class="input-ic">
+            <img src="./images/icon-person.svg" alt="">
+            <input type="number" onfocus="this.value=''" id="ppl" name="ppl" min="1" max="999" required>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="right-con">
+      <div class="tip-amm">
+        <div class="desc">
+          <h3>Tip Amount</h3>
+          <p>/ person</p>
+        </div>
+
+        <div>
+          <p class="result result-tip"></p>
+        </div>
+      </div>
+
+      <div class="total-section">
+        <div class="total-con">
+          <div class="desc">
+            <h3>Total</h3>
+            <p>/ person</p>
+          </div>
+  
+          <div>
+            <p class="result result-total"></p>
+          </div>
+        </div>
+
+        <div class="btn-container">
+          <button type="submit" id="button-tip">calculate</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Saepul Bahri</a>.
+  </div> -->
+</body>
+</html>
