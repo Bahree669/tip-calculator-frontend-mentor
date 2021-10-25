@@ -46,6 +46,6 @@ function calcValue(){
 calcValue()
 
 // call the main function when a button is clicked
-calcBtn.addEventListener('click', () =>{
-    calcValue()
-})
+// calcBtn.addEventListener('click', () =>{
+//     calcValue()
+// })
