@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [www.google.com]
+-   Solution URL: [https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX](see the solution)
 -   Live Site URL: [https://bahree669.github.io/tip-calculator-app-main/](see the project live)
 
 ## My process
