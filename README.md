@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [www.google.com]
--   Live Site URL: [Add live site URL here]
+-   Live Site URL: [https://bahree669.github.io/tip-calculator-app-main/](see the project live)
 
 ## My process
 
@@ -65,7 +65,7 @@ radio.forEach((el) => {
 
 ### Continued development
 
-In the future project I want to be more comfortable with html form and Javascript alghoritm
+This is my first project in using javascript language. It is so challenging and fun 😍 and I learn a lot of new cool stuff. There is a lot of stuff I need to learn (again) to make myself less strugling in the future project. 😊
 
 ## Author
 
