@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 
 :root {
-    --font-family: 'Space Mono', sans-serif;
+    --font-family: "Space Mono", sans-serif;
 
     /* primary color */
     --main-color: hsl(172, 67%, 45%);
@@ -27,13 +27,13 @@ Example
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
+input[type="number"] {
+    -moz-appearance: textfield;
 }
 
 body {
@@ -76,7 +76,8 @@ form {
     height: 100%;
 }
 
-.bill-input, .ppl-number {
+.bill-input,
+.ppl-number {
     display: flex;
     flex-direction: column;
     row-gap: 1em;
@@ -126,7 +127,7 @@ form {
 .radio-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: .5em;
+    gap: 0.5em;
     width: 100%;
 }
 
@@ -203,7 +204,7 @@ form {
 
 /* total style */
 .result {
-    color: var(--light-grayish-cyan-one);
+    color: var(--main-color);
     font-weight: 700;
     font-size: 2rem;
 }
@@ -214,7 +215,7 @@ form {
     font-size: 20px;
     color: var(--very-dark-cyan);
     border-radius: 5px;
-    padding: .5em 0;
+    padding: 0.5em 0;
     border: none;
     background: var(--main-color);
     text-transform: uppercase;
@@ -223,10 +224,10 @@ form {
 }
 
 #button-tip:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
-@media  screen and (min-width : 900px) {
+@media screen and (min-width: 900px) {
     section {
         border-radius: 2em;
         width: 60%;
@@ -244,9 +245,12 @@ form {
         flex-direction: column;
         row-gap: 15em;
     }
+    .result {
+        font-size: 3rem;
+    }
 }
 
-@media  screen and (min-width : 1440px) {
+@media screen and (min-width: 1440px) {
     section {
         border-radius: 2em;
         width: 60%;
@@ -263,5 +267,8 @@ form {
         display: flex;
         flex-direction: column;
         row-gap: 15em;
+    }
+    .result {
+        font-size: 3rem;
     }
 }
