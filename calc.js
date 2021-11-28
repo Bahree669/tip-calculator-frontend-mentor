@@ -33,7 +33,7 @@ radioBtn.forEach((e) => {
         let data = e.target.value.slice();
 
         tiptext.textContent = "$" + ((getBill() * (data / 100)) / getPpl()).toFixed(2);
-        totalText.textContent = "$" + (getBill() * (data / 100)).toFixed(2);
+        totalText.textContent = "$" + (getBill() * (data / 100) + (getBill() * (data / 100)) / getPpl()).toFixed(2);
     });
 });
 
