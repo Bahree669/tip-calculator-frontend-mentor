@@ -92,7 +92,8 @@ form {
 }
 
 #bill,
-#ppl {
+#ppl,
+#custom-tip {
     background: var(--light-grayish-cyan-two);
     border: none;
     color: var(--very-dark-cyan);
@@ -209,7 +210,7 @@ form {
     font-size: 2rem;
 }
 
-#button-tip {
+#button-reset {
     cursor: pointer;
     font-weight: 700;
     font-size: 20px;
@@ -223,7 +224,7 @@ form {
     width: 100%;
 }
 
-#button-tip:hover {
+#button-reset:hover {
     opacity: 0.8;
 }
 
